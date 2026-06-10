@@ -4,7 +4,7 @@ import api from '../services/api';
 
 export const ResumenAdmin = () => {
   const [resumen, setResumen] = useState(null);
-  const [statsExtra, setStatsExtra] = useState({ tutores: {}, temas: {} });
+  const [statsExtra, setStatsExtra] = useState({ tutores: {}, temas: [] });
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
